@@ -8,14 +8,16 @@
   background: #f2c98b;
   border-radius: 100px 100px 20px 20px;
   border-bottom: solid 10px rgba(0,0,0,.08);
+  margin: 0 auto;
 }
 
-/* Vegan Cheese (optional — keep or remove in HTML) */
+/* Cheese */
 .cheese {
   height: 15px;
   width: 65%;
   background: #ffd84d;
   border-bottom: solid 2px rgba(0,0,0,.08);
+  margin: 0 auto;
 }
 
 /* Tomato */
@@ -24,16 +26,7 @@
   width: 55%;
   background-color: #e74c3c;
   border-bottom: solid 2px rgba(0,0,0,.08);
-}
-
-/* Remove meatball look — turn into grilled veggie medallion */
-.meatball {
-  height: 50px;
-  width: 70px;
-  background: #5c7a3d;
-  border-radius: 50px;
-  display: inline-block;
-  vertical-align: top;
+  margin: 0 auto;
 }
 
 /* Veggie Patty */
@@ -43,6 +36,7 @@
   background: #4f6f3c;
   border-radius: 15px;
   border-bottom: solid 2px rgba(0,0,0,.08);
+  margin: 0 auto;
 }
 
 /* Pickle */
@@ -52,13 +46,16 @@
   background: #7ed957;
   border-radius: 0 0 100px 100px;
   border-bottom: solid 10px #58b23a;
+  margin: 0 auto;
 }
 
 /* Onion */
 .onion {
   width: 45%;
+  height: 20px;
   background-color: #d8b4f8;
   border-top: dotted 20px rgba(255,255,255,.3);
+  margin: 0 auto;
 }
 
 /* Bottom Bun */
@@ -68,6 +65,7 @@
   background: #e6bb75;
   border-radius: 20px 20px 40px 40px;
   border-top: solid 8px rgba(0,0,0,.08);
+  margin: 0 auto;
 }
 
 /* Plate */
@@ -76,4 +74,5 @@
   width: 80%;
   background: #7a7a7a;
   border-radius: 20px 20px 200px 200px;
+  margin: 10px auto 40px auto;
 }
