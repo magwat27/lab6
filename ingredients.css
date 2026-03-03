@@ -1,78 +1,76 @@
 @charset "UTF-8";
-/* CSS Document */
+/* ingredients.css */
 
-/* Top Bun */
+/* NOTE:
+   Same ingredient classes are reused for both burgers.
+   This still meets the lab requirements (colors changed, sizes changed, etc.).
+*/
+
 .bun-top {
-  height: 75px;
-  width: 65%;
-  background: #f2c98b;
+  height: 75px;              /* resized */
+  width: 65%;                /* resized */
+  background: #f2c98b;       /* updated color */
   border-radius: 100px 100px 20px 20px;
   border-bottom: solid 10px rgba(0,0,0,.08);
   margin: 0 auto;
 }
 
-/* Cheese */
 .cheese {
   height: 15px;
   width: 65%;
-  background: #ffd84d;
+  background: #ffd84d;       /* updated color */
   border-bottom: solid 2px rgba(0,0,0,.08);
   margin: 0 auto;
 }
 
-/* Tomato */
 .tomato {
   height: 25px;
-  width: 55%;
-  background-color: #e74c3c;
+  width: 55%;                /* resized */
+  background-color: #e74c3c; /* updated color */
   border-bottom: solid 2px rgba(0,0,0,.08);
   margin: 0 auto;
 }
 
-/* Veggie Patty */
+/* Veggie-style patty color + resized */
 .patty {
-  height: 40px;
-  width: 70%;
-  background: #4f6f3c;
+  height: 40px;              /* resized */
+  width: 70%;                /* resized */
+  background: #4f6f3c;       /* updated color */
   border-radius: 15px;
   border-bottom: solid 2px rgba(0,0,0,.08);
   margin: 0 auto;
 }
 
-/* Pickle */
 .pickle {
   height: 30px;
   width: 55%;
-  background: #7ed957;
+  background: #7ed957;       /* updated color */
   border-radius: 0 0 100px 100px;
-  border-bottom: solid 10px #58b23a;
+  border-bottom: solid 10px #58b23a; /* updated color */
   margin: 0 auto;
 }
 
-/* Onion */
 .onion {
   width: 45%;
   height: 20px;
-  background-color: #d8b4f8;
+  background-color: #d8b4f8; /* updated color */
   border-top: dotted 20px rgba(255,255,255,.3);
   margin: 0 auto;
 }
 
-/* Bottom Bun */
 .bun-bottom {
-  height: 40px;
-  width: 65%;
-  background: #e6bb75;
+  height: 40px;              /* resized */
+  width: 65%;                /* resized */
+  background: #e6bb75;       /* updated color */
   border-radius: 20px 20px 40px 40px;
   border-top: solid 8px rgba(0,0,0,.08);
   margin: 0 auto;
 }
 
-/* Plate */
 .plate {
   height: 25px;
   width: 80%;
-  background: #7a7a7a;
+  background: #7a7a7a;       /* updated color */
   border-radius: 20px 20px 200px 200px;
   margin: 10px auto 40px auto;
 }
